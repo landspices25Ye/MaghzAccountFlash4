@@ -40,7 +40,6 @@
               "ar/02-getting-started/04-quick-start"
             ]
           },
-         
           {
             "group": "الإعدادات",
             "root": "ar/04-settings/index",
@@ -137,7 +136,6 @@
           {
             "group": "الوكيل الذكي «مغزى»",
             "root": "ar/15-ai-assistant/index"
-           
           },
           {
             "group": "العملات المتعددة",
@@ -170,7 +168,7 @@
           },
           {
             "group": "الملاحق",
-              "pages": [
+            "pages": [
               "ar/CONVENTIONS",
               "ar/99-appendix/01-glossary",
               "ar/99-appendix/02-permissions-matrix",
@@ -178,14 +176,13 @@
               "ar/99-appendix/04-troubleshooting",
               "ar/99-appendix/05-faq"
             ]
-          },
-          
+          }
         ]
       },
       {
         "tab": "English",
         "groups": [
-         {
+          {
             "group": "Getting Started",
             "root": "en/index",
             "pages": [
@@ -197,7 +194,6 @@
               "en/02-getting-started/04-quick-start"
             ]
           },
-         
           {
             "group": "Settings",
             "root": "en/04-settings/index",
@@ -339,8 +335,7 @@
               "en/99-appendix/04-troubleshooting",
               "en/99-appendix/05-faq"
             ]
-          },
-         
+          }
         ]
       }
     ],

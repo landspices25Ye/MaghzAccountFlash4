@@ -30,10 +30,10 @@
         "groups": [
           {
             "group": "البدء السريع",
+            "root": "ar/index",
             "pages": [
-              "ar/index",
-              "ar/03-interface/index"
-              "ar/01-introduction/index"
+              "ar/03-interface/index",
+              "ar/01-introduction/index",
               "ar/02-getting-started/01-installation",
               "ar/02-getting-started/02-first-run-wizard",
               "ar/02-getting-started/03-login",
@@ -175,12 +175,12 @@
           {
             "group": "الملاحق",
               "pages": [
-              "ar/CONVENTIONS"
+              "ar/CONVENTIONS",
               "ar/99-appendix/01-glossary",
               "ar/99-appendix/02-permissions-matrix",
               "ar/99-appendix/03-shortcuts",
               "ar/99-appendix/04-troubleshooting",
-              "ar/99-appendix/05-faq"
+              "ar/99-appendix/05-faq",
               "./CHANGELOG"
             ]
           },
@@ -190,34 +190,20 @@
       {
         "tab": "English",
         "groups": [
-          {
-            "group": "Complete User Guide",
-            "root": "en/index",
-            "pages": [
-              "en/CONVENTIONS"
-            ]
-          },
-          {
-            "group": "System Introduction",
-            "pages": [
-              "en/01-introduction/index"
-            ]
-          },
+         
           {
             "group": "Getting Started",
+            "root": "en/index",
             "pages": [
+              "en/01-introduction/index",
+              "en/03-interface/index",
               "en/02-getting-started/01-installation",
               "en/02-getting-started/02-first-run-wizard",
               "en/02-getting-started/03-login",
               "en/02-getting-started/04-quick-start"
             ]
           },
-          {
-            "group": "The Interface",
-            "pages": [
-              "en/03-interface/index"
-            ]
-          },
+         
           {
             "group": "Settings",
             "root": "en/04-settings/index",
@@ -356,24 +342,25 @@
               "en/99-appendix/02-permissions-matrix",
               "en/99-appendix/03-shortcuts",
               "en/99-appendix/04-troubleshooting",
-              "en/99-appendix/05-faq"
+              "en/99-appendix/05-faq",
+              "en/CONVENTIONS",
+              "./CHANGELOG"
             ]
           },
-          {
-            "group": "Video Scripts & Changelog",
-            "pages": [
-              "videos/en/scripts/15-19-batch-scripts",
-              "CHANGELOG"
-            ]
-          }
+         
         ]
       }
     ],
     "anchors": [
       {
+        "anchor": "WebSite",
+        "href": "https://maghz-erp.vercel.app",
+        "icon": "globe"
+      },
+      {
         "anchor": "التطبيق الحي",
         "href": "https://maghz-account.vercel.app",
-        "icon": "globe"
+        "icon": "app"
       },
       {
         "anchor": "GitHub",
@@ -385,7 +372,8 @@
   "footer": {
     "socials": {
       "github": "https://github.com/maghzaccount/maghzaccountflash4",
-      "website": "https://maghz-account.vercel.app"
+      "website": "https://maghz-erp.vercel.app"
+      "App": "https://maghz-account.vercel.app"
     }
   },
   "feedback": {

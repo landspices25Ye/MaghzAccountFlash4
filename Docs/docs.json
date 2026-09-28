@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "linden",
+  "theme": "almond",
   "name": "MaghzAccountPro",
   "description": "الدليل الرسمي لنظام MaghzAccountPro — نظام ERP محاسبي متكامل للمنشآت الصغيرة والمتوسطة | Official user guide for MaghzAccountPro — integrated ERP accounting system for SMEs (v0.26.1)",
   "colors": {

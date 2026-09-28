@@ -57,9 +57,7 @@
           },
           {
             "group": "المستخدمون والأدوار",
-            "pages": [
-              "ar/05-users-roles/index"
-            ]
+            "root": "ar/05-users-roles/index"
           },
           {
             "group": "المحاسبة",
@@ -96,6 +94,7 @@
           },
           {
             "group": "المشتريات",
+            "root": "ar/09-purchases/index",
             "pages": [
               "ar/09-purchases/01-suppliers",
               "ar/09-purchases/02-invoices-orders",
@@ -113,9 +112,7 @@
           },
           {
             "group": "التصنيع",
-            "pages": [
-              "ar/11-manufacturing/index"
-            ]
+            "root": "ar/11-manufacturing/index"
           },
           {
             "group": "الموظفون",
@@ -139,9 +136,8 @@
           },
           {
             "group": "الوكيل الذكي «مغزى»",
-            "pages": [
-              "ar/15-ai-assistant/index"
-            ]
+            "root": "ar/15-ai-assistant/index"
+           
           },
           {
             "group": "العملات المتعددة",
@@ -180,8 +176,7 @@
               "ar/99-appendix/02-permissions-matrix",
               "ar/99-appendix/03-shortcuts",
               "ar/99-appendix/04-troubleshooting",
-              "ar/99-appendix/05-faq",
-              "./CHANGELOG"
+              "ar/99-appendix/05-faq"
             ]
           },
           
@@ -190,8 +185,7 @@
       {
         "tab": "English",
         "groups": [
-         
-          {
+         {
             "group": "Getting Started",
             "root": "en/index",
             "pages": [
@@ -301,7 +295,7 @@
             ]
           },
           {
-            "group": "\"Maghz\" AI Assistant",
+            "group": "Maghz AI Assistant",
             "pages": [
               "en/15-ai-assistant/index"
             ]
@@ -338,13 +332,12 @@
           {
             "group": "Appendices",
             "pages": [
+              "en/CONVENTIONS",
               "en/99-appendix/01-glossary",
               "en/99-appendix/02-permissions-matrix",
               "en/99-appendix/03-shortcuts",
               "en/99-appendix/04-troubleshooting",
-              "en/99-appendix/05-faq",
-              "en/CONVENTIONS",
-              "./CHANGELOG"
+              "en/99-appendix/05-faq"
             ]
           },
          
